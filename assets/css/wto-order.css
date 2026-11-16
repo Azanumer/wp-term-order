@@ -1,0 +1,25 @@
+/* Term Order admin styles */
+.wto-drag-handle {
+	cursor: grab;
+	color: #8c8f94;
+	font-size: 15px;
+	line-height: 1;
+	margin-right: 6px;
+	vertical-align: middle;
+	touch-action: none;
+}
+.wto-drag-handle:active {
+	cursor: grabbing;
+}
+.wto-sort-placeholder {
+	background: #f0f6fc !important;
+	outline: 2px dashed #72aee6;
+	height: 40px;
+}
+#the-list tr.ui-sortable-helper {
+	background: #fff;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+.wto-order-value {
+	font-variant-numeric: tabular-nums;
+}
